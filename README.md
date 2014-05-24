@@ -1,5 +1,5 @@
 Samsung Assignment for Getting and Cleaning Data course
-=======================================================
+-------------------------------------------------------
 
 The run_analysis file contains one function which reads in the test and train data, gives each dataset meaningful feature labels and extracts only the columns with mean and standard deviation measurements. It adds the subject and activity columns to the test and train datasets, from which it also assigns a meaningful activity label variable derived from the activity numeric code. Finally, the two datasets are merged together and the average of each numeric variable is computed for each activity and subject. 
 
