@@ -31,33 +31,33 @@ Only some of the files in the original dataset are used in this script (the Iner
 
 The steps taken in the script to combine the above 8 files into 1 tidy dataset are as follows:
 
-### Step One
+#### Step One
 
 Read in the 'features.txt' file. There are 561 variables in the original list. Extract only the variables which contain the words 'mean' or 'std' as per the assignment directions, 66 variables. Reformat the variables to remove parentheses and replace dashes with periods. 
 
 Read in the 'activity_labels.txt' so that it can be used later.
 
-### Step Two
+#### Step Two
 
 Read in the test data ('test/X_test.txt') with readLines and replace double spaces with single spaces and then write it back out again. (This is done so that the fread function will successfully read in the data.) Read in the data with fread, selecting only the variables which were selected in Step One. Assign headers to the data using the variable list from Step One.  
 
 Repeat for the train data ('train/X_train.txt').
 
-### Step Three
+#### Step Three
 
 Read in the test subject data ('test/subject_test.txt') and add it as a column to the test dataframe, giving it a meaningful variable name. Read in the activity data ('test/y_test.txt'), giving it a meaningul variable name. Join the activity labels object created in Step One with the test data to create a new variable which gives the activity name for each row in addition to the numeric activity code. 
 
 Repeat for the train data ('train/subject_train.txt' and 'train/y_train.txt' respectively).
 
-### Step Four
+#### Step Four
 
 Now both the test and train dataframe contain all the correct variables (columns), 69 each. The test data has 2947 observations (rows) and the train data has 7352. Rbind the two datasets together to create one large data set with 69 variables and 10299 observations. 
 
-### Step Five
+#### Step Five
 
 Using the aggregate function, find the average (mean) of all the numeric variables by Activity and Subject. Remove 2 NA columns created by aggregate. Amend the variable names to include "-Avg" at the end of each.
 
-### Step Six
+#### Step Six
 
 Using write.csv, write out the tidy dataset to 'HARdata_tidy.txt'
 
