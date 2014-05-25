@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Samsung Assignment for Getting and Cleaning Data course
 -------------------------------------------------------
 
@@ -69,4 +70,9 @@ Using write.csv, write out the tidy dataset to 'HARdata_tidy.txt'
 
 
 
+=======
+Samsung-Assignment
+==================
+>>>>>>> FETCH_HEAD
 
+Assignment for Getting and Cleaning Data course
