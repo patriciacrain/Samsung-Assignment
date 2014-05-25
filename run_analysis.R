@@ -56,7 +56,7 @@ Analysis <- function(){
   message("computing the average for each variable by activity and subject...")
   final <- suppressWarnings(aggregate(all, by=list(Activity=all$Activity.Label, Subject=all$Subject), mean, length.warning=F))
   final <- final[,-c(69:71)]
-  names(final)[3:68] <- paste0(names(final)[3:68],"-Avg")
+  names(final)[3:68] <- paste0(names(final)[3:68],".Avg")
   message("writing out the tidy data set to 'HARdata_tidy.txt'")
   write.csv(final, "HARdata_tidy.txt")
 }
