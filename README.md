@@ -55,7 +55,7 @@ Now both the test and train dataframe contain all the correct variables (columns
 
 #### Step Five
 
-Using the aggregate function, find the average (mean) of all the numeric variables by Activity and Subject. Remove 2 NA columns created by aggregate. Amend the variable names to include "-Avg" at the end of each. Now the dataset has 68 variables and 180 observations, 1 observation for each of the 6 activities performed by the 30 subjects.
+Using the aggregate function, find the average (mean) of all the numeric variables by Activity and Subject. Remove 2 NA columns created by aggregate. Amend the variable names to include ".Avg" at the end of each. Now the dataset has 68 variables and 180 observations, 1 observation for each of the 6 activities performed by the 30 subjects.
 
 #### Step Six
 
