@@ -61,7 +61,3 @@ Using the aggregate function, find the average (mean) of all the numeric variabl
 
 Using write.csv, write out the tidy dataset to 'HARdata_tidy.txt'
 
-
-
-
-Assignment for Getting and Cleaning Data course
