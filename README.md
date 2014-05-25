@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 Samsung Assignment for Getting and Cleaning Data course
 -------------------------------------------------------
 
@@ -12,7 +11,6 @@ To run this function,
 2.  unzip the files and have them in your working directory in RStudio. 
 3.  open the run_analysis file in RStudio. Source the file and then 
 4.  run Analysis()
-<<<<<<< HEAD
 
 The final output will be a file called 'HARdata_tidy.txt' which contains the summarized data for each subject within each activity. For more info about this file please reference CodeBook.md.
 
@@ -60,19 +58,10 @@ Now both the test and train dataframe contain all the correct variables (columns
 Using the aggregate function, find the average (mean) of all the numeric variables by Activity and Subject. Remove 2 NA columns created by aggregate. Amend the variable names to include "-Avg" at the end of each.
 
 ### Step Six
-=======
->>>>>>> FETCH_HEAD
 
 Using write.csv, write out the tidy dataset to 'HARdata_tidy.txt'
 
 
 
-
-
-
-=======
-Samsung-Assignment
-==================
->>>>>>> FETCH_HEAD
 
 Assignment for Getting and Cleaning Data course
