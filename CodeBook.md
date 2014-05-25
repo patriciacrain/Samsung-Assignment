@@ -80,8 +80,8 @@ Note that '-XYZ' is used to denote 3-axial signals which are represented individ
 | fBodyGyro.mean.Y-Avg | Quantitative | Range (from -0.9940 to 0.3288)| Frequency | The average estimated mean of the angular velocity in the Y direction |
 | fBodyGyro.mean.Z-Avg | Quantitative | Range (from -0.9860 to 0.4924)| Frequency | The average estimated mean of the angular velocity in the Z direction |
 | fBodyGyro.std.X-Avg | Quantitative | Range (from -0.9947 to 0.1966)| Frequency | The average estimated standard deviation of the angular velocity in the X direction |
-| fBodyGyro.std.Y-Avg | Range (from -0.9944 to 0.6462)| Frequency | The average estimated standard deviation of the angular velocity in the Y direction |
-| fBodyGyro.std.Z-Avg | Range (from -0.9867 to 0.5225)| Frequency | The average estimated standard deviation of the angular velocity in the Z direction |
+| fBodyGyro.std.Y-Avg | Quantitative | Range (from -0.9944 to 0.6462)| Frequency | The average estimated standard deviation of the angular velocity in the Y direction |
+| fBodyGyro.std.Z-Avg | Quantitative | Range (from -0.9867 to 0.5225)| Frequency | The average estimated standard deviation of the angular velocity in the Z direction |
 | fBodyAccMag.mean-Avg | Quantitative | Range (from -0.9868 to 0.5866) | Frequency | The average estimated mean of the magnitude of three-dimensional body acceleration signals |
 | fBodyAccMag.std-Avg | Quantitative | Range (from -0.9876 to 0.1787) | Frequency | The average estimated standard deviation of the magnitude of three-dimensional body acceleration signals |
 | fBodyBodyAccJerkMag.mean-Avg | Quantitative | Range (from -0.9940 to 0.5384) | Frequency | The average estimated mean of Jerk signals of the magnitude of three-dimensional body acceleration |
