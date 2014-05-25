@@ -90,7 +90,6 @@ Note that '-XYZ' is used to denote 3-axial signals which are represented individ
 | fBodyBodyGyroMag.std.Avg | Quantitative | Range (from -0.9815 to 0.2367) | Frequency | The average estimated standard deviation of the magnitude of angular velocity three-dimensional signals |
 | fBodyBodyGyroJerkMag.mean.Avg | Quantitative | Range (from -0.9976 to 0.1466) | Frequency | The average estimated mean of Jerk signals of the magnitude of three-dimensional angular velocity |
 | fBodyBodyGyroJerkMag.std.Avg | Quantitative | Range (from -0.9976 to 0.2878) | Frequency | The average estimated mean of Jerk signals of the magnitude of three-dimensional angular velocity |
-=======
 | tBodyAcc.mean.X-Avg | Quantitative | Range (from 0.2216 to 0.3015) | Time | The average estimated mean of the body acceleration signal in the X direction |
 | tBodyAcc.mean.Y-Avg | Quantitative | Range (from -0.040514 to -0.001308) | Time | The average estimated mean of the body acceleration signal in the Y direction |
 | tBodyAcc.mean.Z-Avg | Quantitative | Range (from -0.15251 to -0.07538)| Time | The average estimated mean of the body acceleration signal in the Z direction |
